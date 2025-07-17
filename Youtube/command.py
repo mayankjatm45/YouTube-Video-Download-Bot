@@ -61,11 +61,11 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('📍 Update Channel', url='https://t.me/NT_BOT_CHANNEL'),
+                InlineKeyboardButton('📍 Update Channel', url='https://t.me/WarriorUnitsBots'),
             ],
             [
-                InlineKeyboardButton('👩‍💻 Developer', url='https://t.me/LISA_FAN_LK'),
-                InlineKeyboardButton('👥 Support Group', url='https://t.me/NT_BOTS_SUPPORT'),
+                InlineKeyboardButton('👩‍💻 Developer', url='https://t.me/oo7jatji'),
+                InlineKeyboardButton('👥 Support Group', url='https://t.me/+XAtFZIm4GNZmNGNl'),
             ],
             [
                 InlineKeyboardButton('⛔️ Close', callback_data='cancel')
@@ -83,7 +83,7 @@ To upload a YouTube video, simply send me the YouTube link.
 
 Enjoy using the bot!
 
-©️ Channel : @NT_BOT_CHANNEL
+©️ Channel : @WarriorUnitsBots
     """
     await message.reply_text(help_text)
 
